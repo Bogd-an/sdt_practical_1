@@ -20,3 +20,19 @@
 3. Маршрут перевезення
 4. Ідентифікаційний номер
 5. Реквізити замовника
+
+ORDER
+* orderId int — ідентифікаційний номер квитанції
+* orderName String — найменування товару
+* orderNumber String — кількість товару
+* orderUnit String — одиниці виміру товару
+* orderDataStart String — запланована дата надсилання товару
+* orderDataEnd String — запланована дата отримання товару
+* orderCityStart String — місце відправки товару
+* orderCityEnd String — місце отримання товару
+* orderRoute String — маршрут перевезеня товару
+* customerDetails String — данні відправника
+* orderSent String — дата надсилання
+* orderReceive String — дата отримання товару
+
+![](algoritm.svg)
