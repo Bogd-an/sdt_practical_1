@@ -30,9 +30,8 @@ ORDER
 * orderDataEnd String — запланована дата отримання товару
 * orderCityStart String — місце відправки товару
 * orderCityEnd String — місце отримання товару
-* orderRoute String — маршрут перевезеня товару
+* orderRoute String[] — маршрут перевезеня товару
 * customerDetails String — данні відправника
 * orderSent String — дата надсилання
+* orderRouteCheck String — дата перевірки на шляху
 * orderReceive String — дата отримання товару
-
-![](algoritm.svg)

@@ -1,0 +1,14 @@
+{
+  "token": "1",
+  "type": "OrderCreate",
+  "orderId": "1",
+  "orderName": "Order1",
+  "orderNumber": "1",
+  "orderUnit": "kg",
+  "orderDataStart": "05.05.2022",
+  "orderDataEnd": "05.05.2022",
+  "orderCityStart": "Kyiv",
+  "orderCityEnd": "Lviv",
+  "orderRoute": ["Kyiv", "Svyatoshyn", "Pidzamche","Lviv"],
+  "customerDetails": "Customer1"
+}
