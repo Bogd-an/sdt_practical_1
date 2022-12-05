@@ -4,9 +4,13 @@ import org.sdt_practical_4.DB.Mongo;
 import org.sdt_practical_4.DB.Query;
 
 import java.util.UUID;
+import java.util.logging.Level;
+
+import static java.util.logging.Logger.getLogger;
 
 public class TokenManager {
     public static void main(String[] args){
+        getLogger("org.mongodb").setLevel(Level.OFF);
         Mongo.connect();
         if (args.length > 0) {
             switch (args[0]) {

@@ -14,7 +14,7 @@ public class Mongo {
         static MongoCollection<Document> receiptsDB;
         static MongoCollection<Document> tokensDB;
         public static void connect(){
-            getLogger("org.mongodb.driver").setLevel(Level.OFF);
+
             try {
                 client = new MongoClient("localhost", 27017);
                 MongoDatabase database = client.getDatabase("railwayTransportation");

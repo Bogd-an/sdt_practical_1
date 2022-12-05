@@ -88,7 +88,7 @@ public class Query extends Mongo {
     }
 
     public static void tokenCreate(String token){
-        tokensDB.insertOne( new Document("token", token).append("data", dateNow()) );
+        tokensDB.insertOne( new Document("token", token).append("date", dateNow()) );
     }
 
     public static String tokenGetAll(){
@@ -98,7 +98,7 @@ public class Query extends Mongo {
             while (cursor.hasNext()) {
                 Document item = cursor.next();
                 items.append(item.get("token")).append("  ").append(item.get("date"));
-                if (cursor.hasNext()) { items.append(",\n"); }
+                if (cursor.hasNext()) { items.append("\n"); }
             }
         }
         return items.toString();
