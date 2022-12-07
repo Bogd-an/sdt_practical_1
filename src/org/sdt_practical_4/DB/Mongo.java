@@ -6,9 +6,6 @@ import com.mongodb.client.MongoCollection;
 
 import org.bson.Document;
 
-import java.util.logging.Level;
-import static java.util.logging.Logger.*;
-
 public class Mongo {
         static MongoClient  client;
         static MongoCollection<Document> receiptsDB;

@@ -7,3 +7,5 @@ Reference:
 - https://github.com/mongodb/mongo
 - https://github.com/mongolab/mongodb-driver-examples
 - https://github.com/Bogd-an/sdt_practical_4
+
+For running application need install mongodb before: https://www.mongodb.com/docs/manual/installation/
